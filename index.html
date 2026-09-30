@@ -1,85 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DEEPAK WADHWA BRAND - Official Telegram</title>
+<title>Deepak Wadhwa Official</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif}
-body{background:#0A0A0A;color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:20px 15px}
-.topbar{width:100%;max-width:440px;display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;font-size:12px;letter-spacing:1px;font-weight:700;color:#F5C518}
-.badge{background:linear-gradient(90deg,#F5C518,#FFD700);color:#000;padding:8px 16px;border-radius:20px;font-size:11px}
-.card{width:100%;max-width:440px;background:linear-gradient(180deg,#1A1A1A,#0E0E0E);border:1px solid rgba(245,197,24,0.3);border-radius:24px;padding:30px 22px;text-align:center;box-shadow:0 0 40px rgba(245,197,24,0.15)}
-.logo-circle{width:130px;height:130px;margin:0 auto 25px;background:radial-gradient(circle at 30% 30%,#2A2A2A,#000);border:4px solid #F5C518;border-radius:50%;display:flex;flex-direction:column;justify-content:center;align-items:center;box-shadow:0 0 30px rgba(245,197,24,0.6)}
-.logo-circle b{font-size:42px;color:#F5C518;line-height:1}
-.logo-circle span{font-size:9px;letter-spacing:2px;margin-top:4px;font-weight:700}
-.small-title{color:#F5C518;font-size:12px;letter-spacing:2px;font-weight:700;margin-bottom:12px}
-.main-title{font-size:34px;font-weight:900;color:#F5E36C;margin-bottom:10px}
-.sub-title{font-size:12px;letter-spacing:3px;color:#C9A91A;font-weight:700;margin-bottom:22px}
-.desc{color:#A0A0A0;font-size:14px;line-height:1.6;margin-bottom:28px}
-.btn{width:100%;background:linear-gradient(90deg,#F5C518,#FFDE59);color:#000;border:none;padding:16px;border-radius:14px;font-size:15px;font-weight:900;letter-spacing:0.5px;display:flex;justify-content:center;align-items:center;gap:12px;cursor:pointer;text-decoration:none;box-shadow:0 10px 30px rgba(245,197,24,0.4)}
-.btn i{width:36px;height:36px;background:#000;border-radius:50%;display:flex;justify-content:center;align-items:center;color:#F5C518;font-size:18px}
-.features{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:20px}
-.feat{background:#151515;border:1px solid rgba(255,255,255,0.06);border-radius:14px;padding:14px 8px}
-.feat b{display:block;font-size:11px;margin-top:8px;color:#fff}
-.feat small{font-size:10px;color:#777}
-.feat .ic{font-size:22px}
-.join-box{margin-top:16px;background:#121212;border:1px solid rgba(245,197,24,0.15);border-radius:14px;padding:18px}
-.join-box p{color:#888;font-size:13px}
-.join-box b{color:#F5C518;font-size:14px;display:block;margin-top:4px}
-.footer{margin-top:25px;color:#444;font-size:12px}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{background:#080c14;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:24px 16px}
+.phone{width:100%;max-width:390px;background:linear-gradient(180deg, #121725 0%, #0e1120 100%);border:1px solid rgba(212,175,55,0.28);border-radius:26px;padding:22px 20px 18px;box-shadow:0 30px 80px rgba(0,0,0,0.85),0 0 80px rgba(212,175,55,0.12);position:relative}
+.top-badge{display:flex;justify-content:center;margin-bottom:18px}
+.top-badge span{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:600;color:#d4b95f;background:rgba(212,175,55,0.08);border:1px solid rgba(212,175,55,0.26);padding:7px 14px;border-radius:100px}
+.avatar-wrap{display:flex;justify-content:center;margin-bottom:14px}
+.avatar{width:88px;height:88px;border-radius:50%;padding:2px;background:linear-gradient(135deg, #f7d86a, #b8941f);position:relative}
+.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.name{text-align:center;margin-bottom:18px}
+.name h1{color:#fff;font-size:20px;font-weight:800}
+.name p{color:#c9b06a;font-size:11.5px;margin-top:4px}
+.btn-gold{width:100%;height:48px;background:linear-gradient(135deg, #f8d96b 0%, #e6c14f 30%, #c8a030 70%, #a98114 100%);border:none;border-radius:14px;color:#0d0d0d;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;margin-bottom:16px}
+.pills{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:16px}
+.pill{background:rgba(255,255,255,0.03);border:1px solid rgba(212,175,55,0.18);border-radius:12px;padding:10px 6px;text-align:center}
+.pill b{display:block;color:#fff;font-size:12.5px}
+.pill span{display:block;color:rgba(255,255,255,0.45);font-size:8.5px;text-transform:uppercase;margin-top:3px}
+.note{border:1px dashed rgba(212,175,55,0.28);border-radius:10px;padding:10px 12px;margin-bottom:18px}
+.note p{color:rgba(255,255,255,0.55);font-size:10px;text-align:center;line-height:1.5}
+.cards{display:flex;flex-direction:column;gap:10px;margin-bottom:18px}
+.card{display:flex;gap:12px;align-items:center;background:rgba(255,255,255,0.025);border:1px solid rgba(212,175,55,0.16);border-radius:14px;padding:12px 14px}
+.card-ic{width:36px;height:36px;border-radius:9px;background:rgba(212,175,55,0.12);border:1px solid rgba(212,175,55,0.22);display:flex;align-items:center;justify-content:center;color:#d4af37}
+.card-txt b{color:#fff;font-size:12.5px;display:block}
+.card-txt span{color:rgba(255,255,255,0.48);font-size:10.5px;display:block;margin-top:2px}
+.divider{height:1px;background:rgba(212,175,55,0.14);margin:6px 0 14px}
+.footer{text-align:center}
+.footer .tag{color:#d4af37;font-size:11px;font-weight:700;margin-bottom:12px}
+.footer .links{display:flex;justify-content:center;gap:10px;margin-bottom:10px}
+.footer .links a{color:rgba(255,255,255,0.5);font-size:11px;text-decoration:none}
+.footer .copy{color:rgba(255,255,255,0.28);font-size:9.5px}
 </style>
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1982174919057799');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1982174919057799&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 </head>
 <body>
-
-<div class="topbar">
-<span>● TEAM DEEPAK WADHWA</span>
-<span class="badge">ADS RUN BY @metagrowtha</span>
+<div class="phone">
+<div class="top-badge"><span>● Educational Access Active</span></div>
+<div class="avatar-wrap"><div class="avatar"><img src="https://i.pravatar.cc/200?img=12" alt=""></div></div>
+<div class="name"><h1>Deepak Wadhwa Official™</h1><p>Financial Market Analyst & Strategy Educator</p></div>
+<a class="btn-gold" href="https://t.me/+mlmCXMi5hpI5OTc1" target="_blank">Join Telegram Channel</a>
+<div class="pills"><div class="pill"><b>Daily</b><span>Market Study</span></div><div class="pill"><b>Real-Time</b><span>Chart Updates</span></div><div class="pill"><b>100%</b><span>Educational</span></div></div>
+<div class="note"><p>Free educational community sharing technical case studies & market structure breakdowns. No financial advisory or guaranteed returns.</p></div>
+<div class="cards">
+<div class="card"><div class="card-ic">📊</div><div class="card-txt"><b>Market Breakdowns</b><span>Daily structural insights & trend analysis</span></div></div>
+<div class="card"><div class="card-ic">⚡</div><div class="card-txt"><b>Chart Updates</b><span>Real-time technical analysis & levels</span></div></div>
+<div class="card"><div class="card-ic">✓</div><div class="card-txt"><b>Risk Management</b><span>Disciplined frameworks for capital protection</span></div></div>
 </div>
-
-<div class="card">
-<div class="logo-circle">
-<b>DW</b>
-<span>DEEPAK WADHWA</span>
+<a class="btn-gold" href="https://t.me/+mlmCXMi5hpI5OTc1" target="_blank">Access Community Channel</a>
+<div class="divider"></div>
+<div class="footer"><div class="tag">Educational Community For Modern Traders</div><div class="links"><a href="#">About Us</a><a href="#">Terms</a><a href="#">Disclaimer</a><a href="#">Contact</a></div><div class="copy">© 2026 Deepak Wadhwa Official™. All rights reserved.<br>Not affiliated with Meta Platforms, Inc. or SEBI.</div></div>
 </div>
-
-<div class="small-title">● OFFICIAL TELEGRAM CHANNEL</div>
-<div class="main-title">DEEPAK WADHWA</div>
-<div class="sub-title">PREMIUM CHANNEL ACCESS</div>
-
-<p class="desc">Welcome to DEEPAK WADHWA BRAND.<br>Join our official Telegram channel and stay connected with the latest updates.</p>
-
-<a href="https://t.me/+mlmCXMi5hpI5OTc1" class="btn"><i>➤</i> JOIN TELEGRAM CHANNEL</a>
-
-<div class="features">
-<div class="feat"><div class="ic">⚡</div><b>FAST ACCESS</b><small>Easy Joining</small></div>
-<div class="feat"><div class="ic">🔔</div><b>DAILY UPDATES</b><small>Stay Connected</small></div>
-<div class="feat"><div class="ic">✦</div><b>OFFICIAL</b><small>Channel Access</small></div>
-</div>
-
-<div class="join-box">
-<p>Join our official Telegram channel</p>
-<b>DEEPAK WADHWA</b>
-</div>
-</div>
-
-<div class="footer">© 2026 DEEPAK WADHWA BRAND<br>ALL RIGHTS RESERVED</div>
-
 </body>
 </html>
